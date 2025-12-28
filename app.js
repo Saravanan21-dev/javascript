@@ -28,7 +28,7 @@ app.get('/health', (req, res) => {
 // Sample API endpoint
 app.get('/api/message', (req, res) => {
   res.json({
-    message: 'Hello broskies from Node.js API',
+    message: 'Hello broskie from Node.js API',
     version: 'v1'
   });
 });
